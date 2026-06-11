@@ -11,7 +11,7 @@ jobs:
 
      steps:
        - name: Je recupere mon code
-        uses: actions/checkout@v4
+         uses: actions/checkout@v4
 
        - name: Je verifie que ca marche
-       run: echo"le deploiment se lance tout seul apres un push"
+         run: echo"le deploiment se lance tout seul apres un push"
